@@ -11,6 +11,9 @@ body {
     margin: 0;
     padding: 0;
 }
+ul {
+    padding-inline-start: 0;
+}
 
 hr{
     margin: 3rem 0;
@@ -18,8 +21,7 @@ hr{
 
 /* container */
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0 1rem;
 }
 
 .container-center {
@@ -36,12 +38,18 @@ hr{
     background-color: var(--primary-color);
     color: white;
     border-radius: 0.5rem;
+    display: block;
+    max-width: 100px;
+    text-align: center;
 }
 .link-secondary{
     background-color: white;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
+    display: block;
+    max-width: 100px;
+    text-align: center;
 }
 
 /* lists */
